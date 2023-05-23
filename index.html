@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paycheck calculator</title>
+</head>
+<body>
+    <main class="container">
+        <div class="entrys">
+            <input id="hourlyRate" placeholder="Enter your hourly rate">
+            <input id="wHours" placeholder="Enter your working hours"> 
+            <input id="overtimeSalary" placeholder="Enter your overtime hours">
+            <input id="numberOfWorkingDays" placeholder="Enter the number of working days">
+            <input id="travelExpPerDay" placeholder="Enter travel expences per day">
+            
+            <button class="sum" onclick="main()">TOTAL SALARY</button>
+
+            <p id="paraBaseSalary"></p>
+            <p id="paraOvertimeSalary"></p>
+            <p id="paraTravelExpences"></p>
+            <p id="paraTotalSum"></p>   
+        </div> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
